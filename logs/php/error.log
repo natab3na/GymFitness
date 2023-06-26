@@ -1,0 +1,388 @@
+[18-Oct-2022 12:33:10 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/page.php on line 6
+[18-Oct-2022 12:33:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/page.php:2
+Stack trace:
+#0 /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/NataBena...')
+#2 /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php(17): require('/Users/NataBena...')
+#3 {main}
+  thrown in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/page.php on line 2
+[18-Oct-2022 12:34:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/page.php:2
+Stack trace:
+#0 /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/NataBena...')
+#2 /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php(17): require('/Users/NataBena...')
+#3 {main}
+  thrown in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/page.php on line 2
+[18-Oct-2022 13:25:53 UTC] PHP Parse error:  syntax error, unexpected ''container'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/header.php on line 19
+[18-Oct-2022 13:26:07 UTC] PHP Parse error:  syntax error, unexpected ''container'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/header.php on line 19
+[19-Oct-2022 14:54:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function he_post_thumbnail() in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/page.php:10
+Stack trace:
+#0 /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/NataBena...')
+#2 /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php(17): require('/Users/NataBena...')
+#3 {main}
+  thrown in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/page.php on line 10
+[20-Oct-2022 12:39:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_clases' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 12:39:18 UTC] PHP Stack trace:
+[20-Oct-2022 12:39:18 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/plugins.php:0
+[20-Oct-2022 12:39:18 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/plugins.php:10
+[20-Oct-2022 12:39:18 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin.php:34
+[20-Oct-2022 12:39:18 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 12:39:18 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 12:39:18 UTC] PHP   6. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 12:39:18 UTC] PHP   7. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 12:39:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 12:40:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_clases' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 12:40:20 UTC] PHP Stack trace:
+[20-Oct-2022 12:40:20 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[20-Oct-2022 12:40:20 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[20-Oct-2022 12:40:20 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 12:40:20 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 12:40:20 UTC] PHP   5. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 12:40:20 UTC] PHP   6. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 12:40:20 UTC] PHP   7. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 13:19:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/queries.php on line 5
+[20-Oct-2022 13:20:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/queries.php on line 5
+[20-Oct-2022 13:20:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/queries.php on line 5
+[20-Oct-2022 13:42:24 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/queries.php on line 17
+[20-Oct-2022 13:42:39 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/queries.php on line 17
+[20-Oct-2022 13:42:39 UTC] PHP Parse error:  syntax error, unexpected ':' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/queries.php on line 17
+[20-Oct-2022 20:12:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 60
+[20-Oct-2022 20:12:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 60
+[20-Oct-2022 20:12:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 60
+[20-Oct-2022 20:35:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_registrar_widget' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 20:35:35 UTC] PHP Stack trace:
+[20-Oct-2022 20:35:35 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[20-Oct-2022 20:35:35 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[20-Oct-2022 20:35:35 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 20:35:35 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 20:35:35 UTC] PHP   5. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 20:35:35 UTC] PHP   6. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:35 UTC] PHP   7. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:35 UTC] PHP   8. wp_widgets_init() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:35:35 UTC] PHP   9. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:1854
+[20-Oct-2022 20:35:35 UTC] PHP  10. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:35 UTC] PHP  11. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_registrar_widget' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 20:35:44 UTC] PHP Stack trace:
+[20-Oct-2022 20:35:44 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:0
+[20-Oct-2022 20:35:44 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:10
+[20-Oct-2022 20:35:44 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin.php:34
+[20-Oct-2022 20:35:44 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 20:35:44 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 20:35:44 UTC] PHP   6. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 20:35:44 UTC] PHP   7. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:44 UTC] PHP   8. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP   9. wp_widgets_init() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:35:44 UTC] PHP  10. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:1854
+[20-Oct-2022 20:35:44 UTC] PHP  11. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:44 UTC] PHP  12. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/includes/misc.php on line 1381
+[20-Oct-2022 20:35:44 UTC] PHP Stack trace:
+[20-Oct-2022 20:35:44 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:0
+[20-Oct-2022 20:35:44 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:10
+[20-Oct-2022 20:35:44 UTC] PHP   3. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin.php:175
+[20-Oct-2022 20:35:44 UTC] PHP   4. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:44 UTC] PHP   5. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP   6. wp_admin_headers() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:35:44 UTC] PHP   7. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/includes/misc.php:1381
+[20-Oct-2022 20:35:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/functions.php on line 6880
+[20-Oct-2022 20:35:44 UTC] PHP Stack trace:
+[20-Oct-2022 20:35:44 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:0
+[20-Oct-2022 20:35:44 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:10
+[20-Oct-2022 20:35:44 UTC] PHP   3. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin.php:175
+[20-Oct-2022 20:35:44 UTC] PHP   4. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:44 UTC] PHP   5. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP   6. send_frame_options_header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:305
+[20-Oct-2022 20:35:44 UTC] PHP   7. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/functions.php:6880
+[20-Oct-2022 20:35:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-header.php on line 9
+[20-Oct-2022 20:35:44 UTC] PHP Stack trace:
+[20-Oct-2022 20:35:44 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:0
+[20-Oct-2022 20:35:44 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:34
+[20-Oct-2022 20:35:44 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets-form.php:370
+[20-Oct-2022 20:35:44 UTC] PHP   4. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-header.php:9
+[20-Oct-2022 20:35:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_registrar_widget' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 20:35:44 UTC] PHP Stack trace:
+[20-Oct-2022 20:35:44 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[20-Oct-2022 20:35:44 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[20-Oct-2022 20:35:44 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[20-Oct-2022 20:35:44 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 20:35:44 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 20:35:44 UTC] PHP   6. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 20:35:44 UTC] PHP   7. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:44 UTC] PHP   8. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP   9. wp_widgets_init() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:35:44 UTC] PHP  10. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:1854
+[20-Oct-2022 20:35:44 UTC] PHP  11. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:44 UTC] PHP  12. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/pluggable.php on line 1416
+[20-Oct-2022 20:35:44 UTC] PHP Stack trace:
+[20-Oct-2022 20:35:44 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[20-Oct-2022 20:35:44 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[20-Oct-2022 20:35:44 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:19
+[20-Oct-2022 20:35:44 UTC] PHP   4. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:45
+[20-Oct-2022 20:35:44 UTC] PHP   5. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:44 UTC] PHP   6. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP   7. do_favicon() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:35:44 UTC] PHP   8. wp_redirect() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/functions.php:1733
+[20-Oct-2022 20:35:44 UTC] PHP   9. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/pluggable.php:1416
+[20-Oct-2022 20:35:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/pluggable.php on line 1419
+[20-Oct-2022 20:35:44 UTC] PHP Stack trace:
+[20-Oct-2022 20:35:44 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[20-Oct-2022 20:35:44 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[20-Oct-2022 20:35:44 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:19
+[20-Oct-2022 20:35:44 UTC] PHP   4. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:45
+[20-Oct-2022 20:35:44 UTC] PHP   5. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:35:44 UTC] PHP   6. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:35:44 UTC] PHP   7. do_favicon() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:35:44 UTC] PHP   8. wp_redirect() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/functions.php:1733
+[20-Oct-2022 20:35:44 UTC] PHP   9. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/pluggable.php:1419
+[20-Oct-2022 20:36:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_registrar_widget' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 20:36:06 UTC] PHP Stack trace:
+[20-Oct-2022 20:36:06 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:0
+[20-Oct-2022 20:36:06 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:10
+[20-Oct-2022 20:36:06 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin.php:34
+[20-Oct-2022 20:36:06 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 20:36:06 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 20:36:06 UTC] PHP   6. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 20:36:06 UTC] PHP   7. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:36:06 UTC] PHP   8. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:36:06 UTC] PHP   9. wp_widgets_init() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:36:06 UTC] PHP  10. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:1854
+[20-Oct-2022 20:36:06 UTC] PHP  11. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:36:06 UTC] PHP  12. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:36:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/includes/misc.php on line 1381
+[20-Oct-2022 20:36:06 UTC] PHP Stack trace:
+[20-Oct-2022 20:36:06 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:0
+[20-Oct-2022 20:36:06 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:10
+[20-Oct-2022 20:36:06 UTC] PHP   3. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin.php:175
+[20-Oct-2022 20:36:06 UTC] PHP   4. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:36:06 UTC] PHP   5. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:36:06 UTC] PHP   6. wp_admin_headers() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:36:06 UTC] PHP   7. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/includes/misc.php:1381
+[20-Oct-2022 20:36:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/functions.php on line 6880
+[20-Oct-2022 20:36:06 UTC] PHP Stack trace:
+[20-Oct-2022 20:36:06 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:0
+[20-Oct-2022 20:36:06 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:10
+[20-Oct-2022 20:36:06 UTC] PHP   3. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin.php:175
+[20-Oct-2022 20:36:06 UTC] PHP   4. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:36:06 UTC] PHP   5. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:36:06 UTC] PHP   6. send_frame_options_header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:305
+[20-Oct-2022 20:36:06 UTC] PHP   7. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/functions.php:6880
+[20-Oct-2022 20:36:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-header.php on line 9
+[20-Oct-2022 20:36:06 UTC] PHP Stack trace:
+[20-Oct-2022 20:36:06 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:0
+[20-Oct-2022 20:36:06 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets.php:34
+[20-Oct-2022 20:36:06 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/widgets-form.php:370
+[20-Oct-2022 20:36:06 UTC] PHP   4. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-header.php:9
+[20-Oct-2022 20:36:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_registrar_widget' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 20:36:07 UTC] PHP Stack trace:
+[20-Oct-2022 20:36:07 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[20-Oct-2022 20:36:07 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[20-Oct-2022 20:36:07 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[20-Oct-2022 20:36:07 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 20:36:07 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 20:36:07 UTC] PHP   6. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 20:36:07 UTC] PHP   7. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:36:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:36:07 UTC] PHP   9. wp_widgets_init() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:36:07 UTC] PHP  10. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:1854
+[20-Oct-2022 20:36:07 UTC] PHP  11. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:36:07 UTC] PHP  12. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:36:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/pluggable.php on line 1416
+[20-Oct-2022 20:36:07 UTC] PHP Stack trace:
+[20-Oct-2022 20:36:07 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[20-Oct-2022 20:36:07 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[20-Oct-2022 20:36:07 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:19
+[20-Oct-2022 20:36:07 UTC] PHP   4. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:45
+[20-Oct-2022 20:36:07 UTC] PHP   5. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:36:07 UTC] PHP   6. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:36:07 UTC] PHP   7. do_favicon() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:36:07 UTC] PHP   8. wp_redirect() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/functions.php:1733
+[20-Oct-2022 20:36:07 UTC] PHP   9. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/pluggable.php:1416
+[20-Oct-2022 20:36:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/pluggable.php on line 1419
+[20-Oct-2022 20:36:07 UTC] PHP Stack trace:
+[20-Oct-2022 20:36:07 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[20-Oct-2022 20:36:07 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[20-Oct-2022 20:36:07 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:19
+[20-Oct-2022 20:36:07 UTC] PHP   4. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:45
+[20-Oct-2022 20:36:07 UTC] PHP   5. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:36:07 UTC] PHP   6. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:36:07 UTC] PHP   7. do_favicon() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:36:07 UTC] PHP   8. wp_redirect() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/functions.php:1733
+[20-Oct-2022 20:36:07 UTC] PHP   9. header() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/pluggable.php:1419
+[20-Oct-2022 20:37:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_registrar_widget' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 20:37:07 UTC] PHP Stack trace:
+[20-Oct-2022 20:37:07 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[20-Oct-2022 20:37:07 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[20-Oct-2022 20:37:07 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 20:37:07 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 20:37:07 UTC] PHP   5. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 20:37:07 UTC] PHP   6. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:37:07 UTC] PHP   7. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:37:07 UTC] PHP   8. wp_widgets_init() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:37:07 UTC] PHP   9. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:1854
+[20-Oct-2022 20:37:07 UTC] PHP  10. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:37:07 UTC] PHP  11. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:38:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_registrar_widget' not found or invalid function name in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php on line 307
+[20-Oct-2022 20:38:10 UTC] PHP Stack trace:
+[20-Oct-2022 20:38:10 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[20-Oct-2022 20:38:10 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[20-Oct-2022 20:38:10 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[20-Oct-2022 20:38:10 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[20-Oct-2022 20:38:10 UTC] PHP   5. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:598
+[20-Oct-2022 20:38:10 UTC] PHP   6. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:38:10 UTC] PHP   7. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[20-Oct-2022 20:38:10 UTC] PHP   8. wp_widgets_init() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:307
+[20-Oct-2022 20:38:10 UTC] PHP   9. do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:1854
+[20-Oct-2022 20:38:10 UTC] PHP  10. WP_Hook->do_action() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/plugin.php:476
+[20-Oct-2022 20:38:10 UTC] PHP  11. WP_Hook->apply_filters() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:331
+[21-Oct-2022 15:02:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 15:02:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 15:02:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 15:02:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 15:04:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 15:04:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 15:04:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 15:04:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 15:04:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 45
+[21-Oct-2022 18:54:22 UTC] PHP Parse error:  syntax error, unexpected '$galeria_imagenes_ID' (T_VARIABLE) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/page-galerias.php on line 18
+[24-Oct-2022 20:26:49 UTC] PHP Warning:  require(/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php): failed to open stream: No such file or directory in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:26:49 UTC] PHP Stack trace:
+[24-Oct-2022 20:26:49 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[24-Oct-2022 20:26:49 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[24-Oct-2022 20:26:49 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[24-Oct-2022 20:26:49 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:26:49 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:26:49 UTC] PHP   6. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:26:49 UTC] PHP Fatal error:  require(): Failed opening required '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:26:49 UTC] PHP Stack trace:
+[24-Oct-2022 20:26:49 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[24-Oct-2022 20:26:49 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[24-Oct-2022 20:26:49 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[24-Oct-2022 20:26:49 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:26:49 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:26:49 UTC] PHP   6. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:26:49 UTC] PHP Warning:  require(/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php): failed to open stream: No such file or directory in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:26:49 UTC] PHP Stack trace:
+[24-Oct-2022 20:26:49 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[24-Oct-2022 20:26:49 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[24-Oct-2022 20:26:49 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[24-Oct-2022 20:26:49 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:26:49 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:26:49 UTC] PHP   6. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:26:49 UTC] PHP Fatal error:  require(): Failed opening required '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:26:49 UTC] PHP Stack trace:
+[24-Oct-2022 20:26:49 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[24-Oct-2022 20:26:49 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[24-Oct-2022 20:26:49 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[24-Oct-2022 20:26:49 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:26:49 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:26:49 UTC] PHP   6. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:27:08 UTC] PHP Warning:  require(/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php): failed to open stream: No such file or directory in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:27:08 UTC] PHP Stack trace:
+[24-Oct-2022 20:27:08 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[24-Oct-2022 20:27:08 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[24-Oct-2022 20:27:08 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:27:08 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:27:08 UTC] PHP   5. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:27:08 UTC] PHP Fatal error:  require(): Failed opening required '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:27:08 UTC] PHP Stack trace:
+[24-Oct-2022 20:27:08 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[24-Oct-2022 20:27:08 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[24-Oct-2022 20:27:08 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:27:08 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:27:08 UTC] PHP   5. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:27:34 UTC] PHP Warning:  require(/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php): failed to open stream: No such file or directory in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:27:34 UTC] PHP Stack trace:
+[24-Oct-2022 20:27:34 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[24-Oct-2022 20:27:34 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[24-Oct-2022 20:27:34 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:27:34 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:27:34 UTC] PHP   5. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:27:34 UTC] PHP Fatal error:  require(): Failed opening required '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:27:34 UTC] PHP Stack trace:
+[24-Oct-2022 20:27:34 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[24-Oct-2022 20:27:34 UTC] PHP   2. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[24-Oct-2022 20:27:34 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:27:34 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:27:34 UTC] PHP   5. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:27:34 UTC] PHP Warning:  require(/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php): failed to open stream: No such file or directory in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:27:34 UTC] PHP Stack trace:
+[24-Oct-2022 20:27:34 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[24-Oct-2022 20:27:34 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[24-Oct-2022 20:27:34 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[24-Oct-2022 20:27:34 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:27:34 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:27:34 UTC] PHP   6. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:27:34 UTC] PHP Fatal error:  require(): Failed opening required '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:27:34 UTC] PHP Stack trace:
+[24-Oct-2022 20:27:34 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[24-Oct-2022 20:27:34 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[24-Oct-2022 20:27:34 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[24-Oct-2022 20:27:34 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:27:34 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:27:34 UTC] PHP   6. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:27:34 UTC] PHP Warning:  require(/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php): failed to open stream: No such file or directory in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:27:34 UTC] PHP Stack trace:
+[24-Oct-2022 20:27:34 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[24-Oct-2022 20:27:34 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[24-Oct-2022 20:27:34 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[24-Oct-2022 20:27:34 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:27:34 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:27:34 UTC] PHP   6. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:27:34 UTC] PHP Fatal error:  require(): Failed opening required '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/functions.php on line 4
+[24-Oct-2022 20:27:34 UTC] PHP Stack trace:
+[24-Oct-2022 20:27:34 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[24-Oct-2022 20:27:34 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[24-Oct-2022 20:27:34 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[24-Oct-2022 20:27:34 UTC] PHP   4. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-load.php:50
+[24-Oct-2022 20:27:34 UTC] PHP   5. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-config.php:91
+[24-Oct-2022 20:27:34 UTC] PHP   6. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-settings.php:566
+[24-Oct-2022 20:28:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php on line 8
+[24-Oct-2022 20:28:27 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php on line 8
+[24-Oct-2022 20:29:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php on line 8
+[24-Oct-2022 20:40:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php on line 22
+[24-Oct-2022 20:40:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/inc/shortcodes.php on line 22
+[23-Nov-2022 01:14:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so' (tried: /Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so (dlopen(/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so, 0x0009): tried: '/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so' (no such file)), /Users/runner/work/_temp/local-lightning-php/php-7.4.30/build/lib/php/extensions/no-debug-non-zts-20190902//Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so.so (dlopen(/Users/runner/work/_tem in Unknown on line 0
+[23-Nov-2022 01:14:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so' (tried: /Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so (dlopen(/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so, 0x0009): tried: '/Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so' (no such file)), /Users/runner/work/_temp/local-lightning-php/php-7.4.30/build/lib/php/extensions/no-debug-non-zts-20190902//Applications/Local.app/Contents/Resources/extraResources/lightning-services/php-7.4.1+18/bin/darwin/lib/php/extensions/no-debug-non-zts-20190902/imagick.so.so (dlopen(/Users/runner/work/_tem in Unknown on line 0
+[09-Dec-2022 19:21:40 UTC] PHP Warning:  Undefined array key "after_widget" in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 78
+[09-Dec-2022 19:21:40 UTC] PHP Stack trace:
+[09-Dec-2022 19:21:40 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[09-Dec-2022 19:21:40 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[09-Dec-2022 19:21:40 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:19
+[09-Dec-2022 19:21:40 UTC] PHP   4. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:106
+[09-Dec-2022 19:21:40 UTC] PHP   5. get_sidebar($name = 'clases', $args = *uninitialized*) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/single-gymfitness_clases.php:8
+[09-Dec-2022 19:21:40 UTC] PHP   6. locate_template($template_names = [0 => 'sidebar-clases.php', 1 => 'sidebar.php'], $load = TRUE, $require_once = TRUE, $args = []) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/general-template.php:136
+[09-Dec-2022 19:21:40 UTC] PHP   7. load_template($_template_file = '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/sidebar-clases.php', $require_once = TRUE, $args = []) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template.php:716
+[09-Dec-2022 19:21:40 UTC] PHP   8. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template.php:770
+[09-Dec-2022 19:21:40 UTC] PHP   9. dynamic_sidebar($index = 'sidebar_2') /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/sidebar-clases.php:3
+[09-Dec-2022 19:21:40 UTC] PHP  10. WP_Widget->display_callback($args = ['name' => 'Sidebar 2', 'id' => 'sidebar_2', 'description' => '', 'class' => '', 'before_widget' => '<div class="widget">', 'after_widget' => '</div>', 'before_title' => '<h3 class="text-center texto-primario">', 'after_title' => '</h3>', 'before_sidebar' => '', 'after_sidebar' => '', 'show_in_rest' => FALSE, 'widget_id' => 'foo_widget-2', 'widget_name' => 'Gymfitness Clases'], $widget_args = ['number' => 2]) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:835
+[09-Dec-2022 19:21:40 UTC] PHP  11. Gymfitness_Clases_Widgets->widget($args = ['name' => 'Sidebar 2', 'id' => 'sidebar_2', 'description' => '', 'class' => '', 'before_widget' => '<div class="widget">', 'after_widget' => '</div>', 'before_title' => '<h3 class="text-center texto-primario">', 'after_title' => '</h3>', 'before_sidebar' => '', 'after_sidebar' => '', 'show_in_rest' => FALSE, 'widget_id' => 'foo_widget-2', 'widget_name' => 'Gymfitness Clases'], $instance = ['cantidad' => '3']) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-widget.php:393
+[09-Dec-2022 19:28:47 UTC] PHP Warning:  Undefined array key "after_widget" in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 78
+[09-Dec-2022 19:28:47 UTC] PHP Stack trace:
+[09-Dec-2022 19:28:47 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[09-Dec-2022 19:28:47 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[09-Dec-2022 19:28:47 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:19
+[09-Dec-2022 19:28:47 UTC] PHP   4. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:106
+[09-Dec-2022 19:28:47 UTC] PHP   5. get_sidebar($name = 'clases', $args = *uninitialized*) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/single-gymfitness_clases.php:8
+[09-Dec-2022 19:28:47 UTC] PHP   6. locate_template($template_names = [0 => 'sidebar-clases.php', 1 => 'sidebar.php'], $load = TRUE, $require_once = TRUE, $args = []) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/general-template.php:136
+[09-Dec-2022 19:28:47 UTC] PHP   7. load_template($_template_file = '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/sidebar-clases.php', $require_once = TRUE, $args = []) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template.php:716
+[09-Dec-2022 19:28:47 UTC] PHP   8. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template.php:770
+[09-Dec-2022 19:28:47 UTC] PHP   9. dynamic_sidebar($index = 'sidebar_2') /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/sidebar-clases.php:3
+[09-Dec-2022 19:28:47 UTC] PHP  10. WP_Widget->display_callback($args = ['name' => 'Sidebar 2', 'id' => 'sidebar_2', 'description' => '', 'class' => '', 'before_widget' => '<div class="widget">', 'after_widget' => '</div>', 'before_title' => '<h3 class="text-center texto-primario">', 'after_title' => '</h3>', 'before_sidebar' => '', 'after_sidebar' => '', 'show_in_rest' => FALSE, 'widget_id' => 'foo_widget-2', 'widget_name' => 'Gymfitness Clases'], $widget_args = ['number' => 2]) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:835
+[09-Dec-2022 19:28:47 UTC] PHP  11. Gymfitness_Clases_Widgets->widget($args = ['name' => 'Sidebar 2', 'id' => 'sidebar_2', 'description' => '', 'class' => '', 'before_widget' => '<div class="widget">', 'after_widget' => '</div>', 'before_title' => '<h3 class="text-center texto-primario">', 'after_title' => '</h3>', 'before_sidebar' => '', 'after_sidebar' => '', 'show_in_rest' => FALSE, 'widget_id' => 'foo_widget-2', 'widget_name' => 'Gymfitness Clases'], $instance = ['cantidad' => '3']) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-widget.php:393
+[09-Dec-2022 19:29:03 UTC] PHP Warning:  Undefined array key "after_widget" in /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/plugins/gymfitness_widgets/gymfitness_widgets.php on line 78
+[09-Dec-2022 19:29:03 UTC] PHP Stack trace:
+[09-Dec-2022 19:29:03 UTC] PHP   1. {main}() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:0
+[09-Dec-2022 19:29:03 UTC] PHP   2. require() /Users/NataBenavides/Local Sites/gymfitness/app/public/index.php:17
+[09-Dec-2022 19:29:03 UTC] PHP   3. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-blog-header.php:19
+[09-Dec-2022 19:29:03 UTC] PHP   4. include() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:106
+[09-Dec-2022 19:29:03 UTC] PHP   5. get_sidebar($name = 'clases', $args = *uninitialized*) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/single-gymfitness_clases.php:8
+[09-Dec-2022 19:29:03 UTC] PHP   6. locate_template($template_names = [0 => 'sidebar-clases.php', 1 => 'sidebar.php'], $load = TRUE, $require_once = TRUE, $args = []) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/general-template.php:136
+[09-Dec-2022 19:29:03 UTC] PHP   7. load_template($_template_file = '/Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/sidebar-clases.php', $require_once = TRUE, $args = []) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template.php:716
+[09-Dec-2022 19:29:03 UTC] PHP   8. require_once() /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/template.php:770
+[09-Dec-2022 19:29:03 UTC] PHP   9. dynamic_sidebar($index = 'sidebar_2') /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-content/themes/GymFitness/sidebar-clases.php:3
+[09-Dec-2022 19:29:03 UTC] PHP  10. WP_Widget->display_callback($args = ['name' => 'Sidebar 2', 'id' => 'sidebar_2', 'description' => '', 'class' => '', 'before_widget' => '<div class="widget">', 'after_widget' => '</div>', 'before_title' => '<h3 class="text-center texto-primario">', 'after_title' => '</h3>', 'before_sidebar' => '', 'after_sidebar' => '', 'show_in_rest' => FALSE, 'widget_id' => 'foo_widget-2', 'widget_name' => 'Gymfitness Clases'], $widget_args = ['number' => 2]) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/widgets.php:835
+[09-Dec-2022 19:29:03 UTC] PHP  11. Gymfitness_Clases_Widgets->widget($args = ['name' => 'Sidebar 2', 'id' => 'sidebar_2', 'description' => '', 'class' => '', 'before_widget' => '<div class="widget">', 'after_widget' => '</div>', 'before_title' => '<h3 class="text-center texto-primario">', 'after_title' => '</h3>', 'before_sidebar' => '', 'after_sidebar' => '', 'show_in_rest' => FALSE, 'widget_id' => 'foo_widget-2', 'widget_name' => 'Gymfitness Clases'], $instance = ['cantidad' => '3']) /Users/NataBenavides/Local Sites/gymfitness/app/public/wp-includes/class-wp-widget.php:393
+[03-Jan-2023 23:30:36 UTC] Error de la base de datos de WordPress Server shutdown in progress consultas SHOW FULL COLUMNS FROM `wp_options` hechas por include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->run_command_and_exit, WP_CLI\Runner->run_command, WP_CLI\Dispatcher\Subcommand->invoke, call_user_func, WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}, call_user_func, Core_Command->check_update, Core_Command->get_updates, wp_version_check, set_site_transient, update_site_option, update_network_option, update_option
